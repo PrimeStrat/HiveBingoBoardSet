@@ -1,0 +1,777 @@
+{
+  "version": "1.0.0",
+  "game": "Minecraft Bedrock The Hive",
+  "objectives": [
+    {
+      "goal": "Win a game of Survival Games",
+      "range": [],
+      "individual_limit": 1,
+      "board_categories": [
+        "sg"
+      ],
+      "line_categories": [],
+      "tooltip": "Win a game of Survival Games",
+      "icons": [
+        "minecraft/opponent_takes_100_damage.webp"
+      ]
+    },
+    {
+      "goal": "Obtain Full Iron Armor in Survival Games",
+      "range": [],
+      "individual_limit": 1,
+      "board_categories": [
+        "sg"
+      ],
+      "line_categories": [],
+      "tooltip": "Obtain Full Iron Armor in Survival Games",
+      "icons": [
+        "minecraft/iron_helmet.webp",
+        "minecraft/iron_chestplate.webp",
+        "minecraft/iron_leggings.webp",
+        "minecraft/iron_boots.webp"
+      ],
+      "shiny": true
+    },
+    {
+      "goal": "Beat \"Dragon's Dare\" in Parkour Worlds",
+      "range": [],
+      "individual_limit": 1,
+      "board_categories": [
+        "parkour"
+      ],
+      "line_categories": [],
+      "tooltip": "Beat \"Dragon's Dare\" in Parkour Worlds (Volcano)",
+      "icons": [
+        "minecraft/jump_boost.webp",
+        "minecraft/dragon_head.webp"
+      ]
+    },
+    {
+      "goal": "Beat \"Wyrm Winding\" in Parkour Worlds",
+      "range": [],
+      "individual_limit": 1,
+      "board_categories": [
+        "parkour"
+      ],
+      "line_categories": [],
+      "tooltip": "Beat \"Wyrm Winding\" in Parkour Worlds (Volcano)",
+      "icons": [
+        "minecraft/glowing.webp"
+      ]
+    },
+    {
+      "goal": "Beat \"Bone Basin\" in Parkour Worlds",
+      "range": [],
+      "individual_limit": 1,
+      "board_categories": [
+        "parkour"
+      ],
+      "line_categories": [],
+      "tooltip": "Beat \"Bone Basin\" in Parkour Worlds (Volcano)",
+      "icons": [
+        "minecraft/jump_boost.webp",
+        "minecraft/mushroom_stem.webp"
+      ]
+    },
+    {
+      "goal": "Beat \"Magma Meltdown\" in Parkour Worlds",
+      "range": [],
+      "individual_limit": 1,
+      "board_categories": [
+        "parkour"
+      ],
+      "line_categories": [],
+      "tooltip": "Beat \"Magma Meltdown\" in Parkour Worlds (Volcano)",
+      "icons": [
+        "minecraft/jump_boost.webp",
+        "minecraft/an_opponent_catches_on_fire.webp"
+      ]
+    },
+    {
+      "goal": "Beat \"Garage Grind\" in Parkour Worlds",
+      "range": [],
+      "individual_limit": 1,
+      "board_categories": [
+        "parkour"
+      ],
+      "line_categories": [],
+      "tooltip": "Beat \"Garage Grind\" in Parkour Worlds (City)",
+      "icons": [
+        "minecraft/jump_boost.webp",
+        "minecraft/cyan_glazed_terracotta.webp"
+      ]
+    },
+    {
+      "goal": "Beat \"Highrise Hurdle\" in Parkour Worlds",
+      "range": [],
+      "individual_limit": 1,
+      "board_categories": [
+        "parkour"
+      ],
+      "line_categories": [],
+      "tooltip": "Beat \"Highrise Hurdle\" in Parkour Worlds (City)",
+      "icons": [
+        "minecraft/jump_boost.webp",
+        "minecraft/black_glazed_terracotta.webp"
+      ]
+    },
+    {
+      "goal": "Beat \"Subway Scramble\" in Parkour Worlds",
+      "range": [],
+      "individual_limit": 1,
+      "board_categories": [
+        "parkour"
+      ],
+      "line_categories": [],
+      "tooltip": "Beat \"Subway Scramble\" in Parkour Worlds (City)",
+      "icons": [
+        "minecraft/jump_boost.webp",
+        "minecraft/bell.webp"
+      ]
+    },
+    {
+      "goal": "Beat \"Playground Peril\" in Parkour Worlds",
+      "range": [],
+      "individual_limit": 1,
+      "board_categories": [
+        "parkour"
+      ],
+      "line_categories": [],
+      "tooltip": "Beat \"Playground Peril\" in Parkour Worlds (City)",
+      "icons": [
+        "minecraft/jump_boost.webp",
+        "minecraft/spyglass.webp"
+      ]
+    },
+    {
+      "goal": "Beat \"Jungle Jaunt\" in Parkour Worlds",
+      "range": [],
+      "individual_limit": 1,
+      "board_categories": [
+        "parkour"
+      ],
+      "line_categories": [],
+      "tooltip": "Beat \"Jungle Jaunt\" in Parkour Worlds (Jungle)",
+      "icons": [
+        "minecraft/dark_oak_sapling.webp"
+      ]
+    },
+    {
+      "goal": "Beat \"Temple Turmoil\" in Parkour Worlds",
+      "range": [],
+      "individual_limit": 1,
+      "board_categories": [
+        "parkour"
+      ],
+      "line_categories": [],
+      "tooltip": "Beat \"Temple Turmoil\" in Parkour Worlds (Jungle)",
+      "icons": [
+        "minecraft/jump_boost.webp",
+        "minecraft/spruce_sapling.webp"
+      ]
+    },
+    {
+      "goal": "Beat \"Cavern Conundrum\" in Parkour Worlds",
+      "range": [],
+      "individual_limit": 1,
+      "board_categories": [
+        "parkour"
+      ],
+      "line_categories": [],
+      "tooltip": "Beat \"Cavern Conundrum\" in Parkour Worlds (Jungle)",
+      "icons": [
+        "minecraft/jump_boost.webp",
+        "minecraft/acacia_sapling.webp"
+      ]
+    },
+    {
+      "goal": "Beat \"Willow Whirl\" in Parkour Worlds",
+      "range": [],
+      "individual_limit": 1,
+      "board_categories": [
+        "parkour"
+      ],
+      "line_categories": [],
+      "tooltip": "Beat \"Willow Whirl\" in Parkour Worlds (Jungle)",
+      "icons": [
+        "minecraft/jump_boost.webp",
+        "minecraft/birch_sapling.webp"
+      ]
+    },
+    {
+      "goal": "Beat \"Courtyard Crossing\" in Parkour Worlds",
+      "range": [],
+      "individual_limit": 1,
+      "board_categories": [
+        "parkour"
+      ],
+      "line_categories": [],
+      "tooltip": "Beat \"Courtyard Crossing\" in Parkour Worlds (Rooftops)",
+      "icons": [
+        "minecraft/jump_boost.webp",
+        "minecraft/mossy_stone_brick_wall.webp"
+      ]
+    },
+    {
+      "goal": "Beat \"Rooftop Rise\" in Parkour Worlds",
+      "range": [],
+      "individual_limit": 1,
+      "board_categories": [
+        "parkour"
+      ],
+      "line_categories": [],
+      "tooltip": "Beat \"Rooftop Rise\" in Parkour Worlds (Rooftops)",
+      "icons": [
+        "minecraft/jump_boost.webp",
+        "minecraft/mud_brick_wall.webp"
+      ]
+    },
+    {
+      "goal": "Beat \"Balloon Bounce\" in Parkour Worlds",
+      "range": [],
+      "individual_limit": 1,
+      "board_categories": [
+        "parkour"
+      ],
+      "line_categories": [],
+      "tooltip": "Beat \"Balloon Bounce\" in Parkour Worlds (Rooftops)",
+      "icons": [
+        "minecraft/jump_boost.webp",
+        "minecraft/slime_block.webp"
+      ]
+    },
+    {
+      "goal": "Get 30 or More Kills in Deathrun",
+      "range": [],
+      "individual_limit": 1,
+      "board_categories": [],
+      "line_categories": [],
+      "tooltip": "Get 30 or More Kills in Deathrun (as death)",
+      "icons": [
+        "minecraft/kill_wither_skeleton.webp"
+      ],
+      "shiny": true
+    },
+    {
+      "goal": "Be the First Player Eliminated in Any Game",
+      "range": [],
+      "individual_limit": 1,
+      "board_categories": [],
+      "line_categories": [],
+      "tooltip": "Be the First Player Eliminated in Any Game (put into spectator mode after death)",
+      "icons": [
+        "minecraft/bad_omen.webp"
+      ]
+    },
+    {
+      "goal": "Kill 8 or More Players in One Game",
+      "range": [],
+      "individual_limit": 1,
+      "board_categories": [],
+      "line_categories": [],
+      "tooltip": "Kill 8 or More Players in One Game",
+      "icons": [
+        "minecraft/kill_x_unique_hostile_mobs.webp"
+      ],
+      "shiny": true
+    },
+    {
+      "goal": "Find Dora The Explora's Backpack in the Hive Hub",
+      "range": [],
+      "individual_limit": 1,
+      "board_categories": [],
+      "line_categories": [],
+      "tooltip": "Find Dora's Backpack in the Hive Hub",
+      "icons": [
+        "minecraft/purple_leather_chestplate.webp"
+      ]
+    },
+    {
+      "goal": "Punch ANY Parkour Robot in the Main Hub (anything goes)",
+      "range": [],
+      "individual_limit": 1,
+      "board_categories": [],
+      "line_categories": [],
+      "tooltip": "Punch ANY Parkour Robot in the Main Hub (anything goes, you can use mounts, jetpack, ext)",
+      "icons": [
+        "minecraft/die_by_iron_golem.webp"
+      ]
+    },
+    {
+      "goal": "Win ANY Game in Each Region",
+      "range": [],
+      "individual_limit": 1,
+      "board_categories": [],
+      "line_categories": [],
+      "tooltip": "Win ANY Game in Each Region",
+      "icons": [
+        "minecraft/experience_bottle.webp"
+      ]
+    },
+    {
+      "goal": "Perform a 15 Block or More Icey Bridge",
+      "range": [],
+      "individual_limit": 1,
+      "board_categories": [],
+      "line_categories": [],
+      "tooltip": "Perform a 15 Block or More Icey Bridge in ANY Game with blocks",
+      "icons": [
+        "minecraft/packed_ice.webp"
+      ]
+    },
+    {
+      "goal": "Win Block Drop with NO Powerups OR Leaps",
+      "range": [],
+      "individual_limit": 1,
+      "board_categories": [],
+      "line_categories": [],
+      "tooltip": "Win Block Drop with NO Powerups OR Leaps (you cannot use any powerups)",
+      "icons": [
+        "minecraft/an_opponent_jumps.webp"
+      ],
+      "shiny": true
+    },
+    {
+      "goal": "Obtain a \"Carrot\" in Survival Games",
+      "range": [],
+      "individual_limit": 1,
+      "board_categories": [
+        "sg"
+      ],
+      "line_categories": [],
+      "tooltip": "Obtain a \"Carrot\" in Survival Games",
+      "icons": [
+        "minecraft/carrot_on_a_stick.webp"
+      ]
+    },
+    {
+      "goal": "Win a game of Hide n Seek",
+      "range": [],
+      "individual_limit": 1,
+      "board_categories": [],
+      "line_categories": [],
+      "tooltip": "Win a game of Hide n Seek",
+      "icons": [
+        "minecraft/lime_glazed_terracotta.webp"
+      ]
+    },
+    {
+      "goal": "Win Bridge Solos Using EVERY Kit",
+      "range": [],
+      "individual_limit": 1,
+      "board_categories": [],
+      "line_categories": [],
+      "tooltip": "Win Bridge Solos Using EVERY Kit (in multiple games, win each one with each available kit)",
+      "icons": [
+        "minecraft/snowball.webp",
+        "minecraft/arrow.webp",
+        "terraria/featherfallbuff.webp"
+      ],
+      "shiny": true
+    },
+    {
+      "goal": "Purchase Every Upgrade in Capture The Flag",
+      "range": [],
+      "individual_limit": 1,
+      "board_categories": [],
+      "line_categories": [],
+      "tooltip": "Purchase Every Upgrade in Capture The Flag",
+      "icons": [
+        "minecraft/gold_ingot.webp"
+      ],
+      "shiny": true
+    },
+    {
+      "goal": "Obtain a Knockback Dory in Bedwars",
+      "range": [],
+      "individual_limit": 1,
+      "board_categories": [],
+      "line_categories": [],
+      "tooltip": "Obtain a Knockback Dory in Bedwars",
+      "icons": [
+        "minecraft/red_bed.webp",
+        "terraria/fishstatue.webp"
+      ]
+    },
+    {
+      "goal": "Use One of Every \"Universal\" Boombox",
+      "range": [],
+      "individual_limit": 1,
+      "board_categories": [],
+      "line_categories": [],
+      "tooltip": "Use a blindness, slowness, poison, explosive, knockback, and fire boombox (excludes skywars weekly items)",
+      "icons": [
+        "minecraft/tnt.webp"
+      ],
+      "shiny": true
+    },
+    {
+      "goal": "Loot a \"Supply Drop\" in Survival Games",
+      "range": [],
+      "individual_limit": 1,
+      "board_categories": [
+        "sg"
+      ],
+      "line_categories": [],
+      "tooltip": "Loot a \"Supply Drop\" in Survival Games",
+      "icons": [
+        "minecraft/chest.webp"
+      ]
+    },
+    {
+      "goal": "Find and Open a \"Cash Cow\" in Survival Games",
+      "range": [],
+      "individual_limit": 1,
+      "board_categories": [
+        "sg"
+      ],
+      "line_categories": [],
+      "tooltip": "Find and Open a \"Cash Cow\" in Survival Games",
+      "icons": [
+        "minecraft/breed_cow.webp"
+      ]
+    },
+    {
+      "goal": "Win Block Party with NO Powerups",
+      "range": [],
+      "individual_limit": 1,
+      "board_categories": [],
+      "line_categories": [],
+      "tooltip": "Win Block Party with NO Powerups",
+      "icons": [
+        "minecraft/milk_bucket.webp"
+      ],
+      "shiny": true
+    },
+    {
+      "goal": "Equip a Full Set of Enchanted Armor in Skywars",
+      "range": [],
+      "individual_limit": 1,
+      "board_categories": [],
+      "line_categories": [],
+      "tooltip": "Equip a Full Set of Enchanted Armor in Skywars (in ONE game)",
+      "icons": [
+        "minecraft/golden_boots.webp",
+        "minecraft/iron_leggings.webp",
+        "minecraft/diamond_chestplate.webp",
+        "minecraft/brown_leather_helmet.webp"
+      ],
+      "shiny": true
+    },
+    {
+      "goal": "Drink a Potion in Bedwars",
+      "range": [],
+      "individual_limit": 1,
+      "board_categories": [],
+      "line_categories": [],
+      "tooltip": "Drink a Potion in Bedwars",
+      "icons": [
+        "minecraft/leaping_potion.webp"
+      ]
+    },
+    {
+      "goal": "Kill a player in Hide n Seek",
+      "range": [],
+      "individual_limit": 1,
+      "board_categories": [],
+      "line_categories": [],
+      "tooltip": "Kill a player in Hide n Seek",
+      "icons": [
+        "minecraft/kill_pink_sheep.webp"
+      ]
+    },
+    {
+      "goal": "Earn 3 Stars in a Bedwars Hub Parkour",
+      "range": [],
+      "individual_limit": 1,
+      "board_categories": [],
+      "line_categories": [],
+      "tooltip": "Earn 3 Stars in a Bedwars Hub Parkour",
+      "icons": [
+        "minecraft/3_status_effects.webp",
+        "minecraft/red_bed.webp"
+      ]
+    },
+    {
+      "goal": "Earn 3 Stars in a Build Battle Hub Parkour",
+      "range": [],
+      "individual_limit": 1,
+      "board_categories": [],
+      "line_categories": [],
+      "tooltip": "Earn 3 Stars in a Build Battle Hub Parkour",
+      "icons": [
+        "minecraft/3_status_effects.webp",
+        "minecraft/anvil.webp"
+      ]
+    },
+    {
+      "goal": "Earn 3 Stars in a Skywars Hub Parkour",
+      "range": [],
+      "individual_limit": 1,
+      "board_categories": [],
+      "line_categories": [],
+      "tooltip": "Earn 3 Stars in a Skywars Hub Parkour",
+      "icons": [
+        "minecraft/3_status_effects.webp",
+        "minecraft/jump_boost.webp"
+      ]
+    },
+    {
+      "goal": "Use the \"Imposter\" Power Up in Groundwars",
+      "range": [],
+      "individual_limit": 1,
+      "board_categories": [],
+      "line_categories": [],
+      "tooltip": "Use the \"Imposter\" Power Up in Groundwars",
+      "icons": [
+        "minecraft/breed_chicken.webp"
+      ]
+    },
+    {
+      "goal": "Kill the last player in ANY PvP Game",
+      "range": [],
+      "individual_limit": 1,
+      "board_categories": [],
+      "line_categories": [],
+      "tooltip": "Kill the last player in ANY PvP Game",
+      "icons": [
+        "minecraft/kill_player.webp"
+      ]
+    },
+    {
+      "goal": "Win any game using the command /q random",
+      "range": [],
+      "individual_limit": 1,
+      "board_categories": [],
+      "line_categories": [],
+      "tooltip": "Win any game using the command /q random",
+      "icons": [
+        "minecraft/weakness.webp"
+      ]
+    },
+    {
+      "goal": "Obtain Full Diamond Armor",
+      "range": [],
+      "individual_limit": 1,
+      "board_categories": [],
+      "line_categories": [],
+      "tooltip": "Obtain Full Diamond Armor in ANY Game",
+      "icons": [
+        "minecraft/diamond_helmet.webp",
+        "minecraft/diamond_chestplate.webp",
+        "minecraft/diamond_leggings.webp",
+        "minecraft/diamond_boots.webp"
+      ]
+    },
+    {
+      "goal": "Complete 1 Quest",
+      "range": [],
+      "individual_limit": 1,
+      "board_categories": [],
+      "line_categories": [],
+      "tooltip": "Complete 1 Quest from the Quest Master",
+      "icons": [
+        "minecraft/more_level.webp"
+      ]
+    },
+    {
+      "goal": "Beat \"Dungeon Dash\" in Parkour Worlds",
+      "range": [],
+      "individual_limit": 1,
+      "board_categories": [
+        "parkour"
+      ],
+      "line_categories": [],
+      "tooltip": "Beat \"Dungeon Dash\" in Parkour Worlds (Volcano)",
+      "icons": [
+        "minecraft/jump_boost.webp",
+        "minecraft/enter_nether.webp"
+      ]
+    },
+    {
+      "goal": "Beat \"Tower Transcend\" in Parkour Worlds",
+      "range": [],
+      "individual_limit": 1,
+      "board_categories": [
+        "parkour"
+      ],
+      "line_categories": [],
+      "tooltip": "Beat \"Tower Transcend\" in Parkour Worlds (City)",
+      "icons": [
+        "minecraft/jump_boost.webp",
+        "minecraft/light_blue_glazed_terracotta.webp"
+      ]
+    },
+    {
+      "goal": "Beat \"Canopy Climb\" in Parkour Worlds",
+      "range": [],
+      "individual_limit": 1,
+      "board_categories": [
+        "parkour"
+      ],
+      "line_categories": [],
+      "tooltip": "Beat \"Canopy Climb\" in Parkour Worlds (Jungle)",
+      "icons": [
+        "minecraft/jump_boost.webp",
+        "minecraft/jungle_sapling.webp"
+      ]
+    },
+    {
+      "goal": "Beat \"Highwire Hijinks\" in Parkour Worlds",
+      "range": [],
+      "individual_limit": 1,
+      "board_categories": [
+        "parkour"
+      ],
+      "line_categories": [],
+      "tooltip": "Beat \"Highwire Hijinks\" in Parkour Worlds (Rooftops)",
+      "icons": [
+        "minecraft/nether_bricks.webp",
+        "minecraft/jump_boost.webp"
+      ]
+    },
+    {
+      "goal": "Win a game of Murder Mystery",
+      "range": [],
+      "individual_limit": 1,
+      "board_categories": [],
+      "line_categories": [],
+      "tooltip": "Win a game of Murder Mystery",
+      "icons": [
+        "minecraft/wooden_sword.webp"
+      ]
+    },
+    {
+      "goal": "Win a game of The Bridge Solos",
+      "range": [],
+      "individual_limit": 1,
+      "board_categories": [],
+      "line_categories": [],
+      "tooltip": "Win a game of The Bridge Solos",
+      "icons": [
+        "minecraft/red_concrete.webp",
+        "minecraft/light_blue_concrete.webp"
+      ]
+    },
+    {
+      "goal": "Win a game of Capture The Flag",
+      "range": [],
+      "individual_limit": 1,
+      "board_categories": [],
+      "line_categories": [],
+      "tooltip": "Win a game of Capture The Flag",
+      "icons": [
+        "minecraft/golden_helmet.webp"
+      ]
+    },
+    {
+      "goal": "Win a game of Block Drop",
+      "range": [],
+      "individual_limit": 1,
+      "board_categories": [],
+      "line_categories": [],
+      "tooltip": "Win a game of Block Drop",
+      "icons": [
+        "minecraft/lime_concrete.webp",
+        "minecraft/yellow_concrete.webp",
+        "minecraft/red_concrete.webp"
+      ]
+    },
+    {
+      "goal": "Win a game of Gravity",
+      "range": [],
+      "individual_limit": 1,
+      "board_categories": [],
+      "line_categories": [],
+      "tooltip": "Win a game of Gravity (1st place)",
+      "icons": [
+        "terraria/gravitationbuff.webp"
+      ]
+    },
+    {
+      "goal": "Win a game of Block Party",
+      "range": [],
+      "individual_limit": 1,
+      "board_categories": [],
+      "line_categories": [],
+      "tooltip": "Win a game of Block Party",
+      "icons": [
+        "minecraft/light_blue_concrete.webp"
+      ]
+    },
+    {
+      "goal": "Get top 3 in Deathrun",
+      "range": [],
+      "individual_limit": 1,
+      "board_categories": [],
+      "line_categories": [],
+      "tooltip": "Get top 3 in Deathrun",
+      "icons": [
+        "minecraft/wither_skeleton_skull.webp"
+      ]
+    },
+    {
+      "goal": "Win a game of Speed Builders",
+      "range": [],
+      "individual_limit": 1,
+      "board_categories": [],
+      "line_categories": [],
+      "tooltip": "Win a game of Speed Builders (getting 1st place)",
+      "icons": [
+        "minecraft/anvil.webp"
+      ]
+    },
+    {
+      "goal": "Win a game of Groundwars",
+      "range": [],
+      "individual_limit": 1,
+      "board_categories": [],
+      "line_categories": [],
+      "tooltip": "Win a game of Bedwars Solos",
+      "icons": [
+        "minecraft/egg.webp"
+      ]
+    },
+    {
+      "goal": "Win a game of Bedwars Solos",
+      "range": [],
+      "individual_limit": 1,
+      "board_categories": [],
+      "line_categories": [],
+      "tooltip": "Win a game of Bedwars Solos",
+      "icons": [
+        "minecraft/red_bed.webp"
+      ]
+    },
+    {
+      "goal": "Win a game of Skywars Solos",
+      "range": [],
+      "individual_limit": 1,
+      "board_categories": [],
+      "line_categories": [],
+      "tooltip": "Win a game of Skywars Solos",
+      "icons": [
+        "minecraft/reach_sky_limit.webp"
+      ]
+    },
+    {
+      "goal": "Obtain a Knockback Nemo",
+      "range": [],
+      "individual_limit": 1,
+      "board_categories": [],
+      "line_categories": [],
+      "tooltip": "Obtain a Knockback Nemo in ANY Hive Skywars Game",
+      "icons": [
+        "minecraft/tropical_fish_bucket.webp"
+      ],
+      "shiny": true
+    }
+  ],
+  "limits": {
+    "board": {
+      "parkour": 15,
+      "sg": 5
+    },
+    "line": {}
+  }
+}
